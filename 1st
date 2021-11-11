@@ -1,0 +1,5 @@
+print("Tip calculator!")
+bill = input("How much is the bill? \n $")
+split = input("How many people is the bill split between? \n")
+total = bill/split
+print(f"The split bill is {total}")
